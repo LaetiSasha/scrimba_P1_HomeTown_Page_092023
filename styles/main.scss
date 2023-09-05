@@ -1,0 +1,242 @@
+$black: #19190d;
+$blue: #84b7d7;
+* {
+	margin: 0;
+	body {
+		color: white;
+		// font-family: "Zilla Slab", serif;
+		font-family: "Open Sans", serif;
+		text-align: center;
+		header {
+			background-image: url("../images/aaron-burden-ufFIweqSPd4-unsplash.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 100%;
+			max-width: 1024px;
+			min-height: 480px;
+			height: 80%;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			h1 {
+				padding: 30px 10px;
+				border-radius: 10px;
+				font-size: 90px;
+				text-shadow: 0 0 3px black;
+				font-family: "Caveat", cursive;
+			}
+			p {
+				padding: 5px 10px;
+				width: 45%;
+				font-size: 20px;
+				border-radius: 10px;
+				text-shadow: 0 0 3px black;
+			}
+		}
+		main {
+			.main__activities {
+				width: 100%;
+				max-width: 1024px;
+				height: auto;
+				background-color: $black;
+				margin: 0 auto;
+				padding: 35px 0;
+				h2 {
+					font-size: 45px;
+					color: $blue;
+					margin-bottom: 30px;
+					font-family: "Caveat", cursive;
+				}
+				.activities {
+					display: flex;
+					margin: 0 25px;
+					gap: 20px;
+					.activities__description {
+						max-width: 310px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: space-around;
+						gap: 20px;
+
+						img {
+							width: 130px;
+							height: 130px;
+							border-radius: 50%;
+							transition: all 800ms;
+							&:hover {
+								cursor: pointer;
+								transform: scale(1.2);
+							}
+						}
+						.bottom__container {
+							min-height: 18rem;
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							justify-content: space-between;
+							h3 {
+								height: 20%;
+								color: $blue;
+								&:hover {
+									cursor: pointer;
+									text-shadow: 0px 1px 10px #bbd1e1;
+								}
+							}
+							p {
+								height: 80%;
+								text-align: left;
+							}
+						}
+					}
+				}
+				.activities {
+					.main__activites--pictures {
+						display: flex;
+						justify-content: space-around;
+						img {
+							width: 130px;
+							height: 130px;
+							border-radius: 50%;
+							transition: all 800ms;
+						}
+						img:hover {
+							cursor: pointer;
+							transform: scale(1.2);
+						}
+					}
+					.main__activities--titles {
+						display: flex;
+						align-items: center;
+						justify-content: space-around;
+						margin: 20px 0;
+						/*h3 {
+							margin-top: 15px;
+							width: 26%;
+							color: #84b7d7;
+							&:hover {
+								cursor: pointer;
+								text-shadow: 0px 1px 10px #bbd1e1;
+							}
+						}*/
+					}
+					.main__activities--description {
+						display: flex;
+						align-items: center;
+						justify-content: space-around;
+						gap: 20px;
+						margin: 0 20px;
+						p {
+							text-align: left;
+						}
+					}
+				}
+			}
+			.main__food {
+				background-color: #bcab7e;
+				width: 100%;
+				max-width: 1024px;
+				height: auto;
+				margin: 0 auto;
+				padding: 35px 0;
+				h2 {
+					font-family: "Caveat", cursive;
+					font-size: 45px;
+					margin-bottom: 40px;
+				}
+				img {
+					box-shadow: 10px 5px 5px #7f783b;
+				}
+				p {
+					font-size: 19px;
+				}
+				.clafoutis {
+					display: flex;
+					align-items: center;
+					margin: 10px 20px;
+					gap: 20px;
+				}
+				.potato__pie {
+					display: flex;
+					flex-direction: row-reverse;
+					align-items: center;
+					margin: 10px 20px;
+					gap: 20px;
+				}
+				.apples {
+					display: flex;
+					align-items: center;
+					margin: 10px 20px;
+					gap: 20px;
+				}
+			}
+			.main__funFact {
+				width: 100%;
+				max-width: 1024px;
+				height: auto;
+				background-color: $black;
+				margin: 0 auto;
+				padding: 35px 0;
+				h2 {
+					font-family: "Caveat", cursive;
+					font-size: 45px;
+					padding-bottom: 20px;
+				}
+				h2,
+				p {
+					margin: 0 30px;
+				}
+				p {
+					font-size: 19px;
+				}
+			}
+		}
+		footer {
+			width: 100%;
+			max-width: 1024px;
+			margin: 0 auto;
+			padding: 50px 0;
+			background-color: #d2e6f8;
+			.yourGuide {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 20px;
+				width: 400px;
+				height: 294px;
+				margin: 0 auto;
+				background-color: #84b7d7;
+				box-shadow: 10px 5px 5px #bbd1e1;
+				padding-left: 20px;
+				border-radius: 10px;
+			}
+			img {
+				width: 180px;
+				height: 180px;
+				object-fit: cover;
+				border-radius: 50%;
+				box-shadow: 10px 5px 10px #bbd1e1;
+			}
+			.yourGuide__introduction {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding-right: 20px;
+				text-shadow: 0 0 3px black;
+				gap: 20px;
+				h4 {
+					font-family: "Caveat", cursive;
+					font-size: 30px;
+					background-color: #1a7aa7;
+					padding: 10px;
+					width: 68%;
+					border-radius: 10px;
+				}
+				#text {
+					font-style: italic;
+				}
+			}
+		}
+	}
+}
