@@ -79,6 +79,7 @@ $blue: #84b7d7;
 							h3 {
 								height: 20%;
 								color: $blue;
+								font-size: 17px;
 								&:hover {
 									cursor: pointer;
 									text-shadow: 0px 1px 10px #bbd1e1;
@@ -87,6 +88,7 @@ $blue: #84b7d7;
 							p {
 								height: 80%;
 								text-align: left;
+								font-size: 15px;
 							}
 						}
 					}
@@ -149,7 +151,7 @@ $blue: #84b7d7;
 					box-shadow: 10px 5px 5px #7f783b;
 				}
 				p {
-					font-size: 19px;
+					font-size: 17px;
 				}
 				.clafoutis {
 					display: flex;
@@ -169,6 +171,9 @@ $blue: #84b7d7;
 					align-items: center;
 					margin: 10px 20px;
 					gap: 20px;
+					#applePic {
+						width: 60%;
+					}
 				}
 			}
 			.main__funFact {
@@ -188,7 +193,7 @@ $blue: #84b7d7;
 					margin: 0 30px;
 				}
 				p {
-					font-size: 19px;
+					font-size: 17px;
 				}
 			}
 		}

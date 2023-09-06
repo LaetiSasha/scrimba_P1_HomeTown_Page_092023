@@ -80,6 +80,7 @@
 * body main .main__activities .activities .activities__description .bottom__container h3 {
   height: 20%;
   color: #84b7d7;
+  font-size: 17px;
 }
 * body main .main__activities .activities .activities__description .bottom__container h3:hover {
   cursor: pointer;
@@ -88,6 +89,7 @@
 * body main .main__activities .activities .activities__description .bottom__container p {
   height: 80%;
   text-align: left;
+  font-size: 15px;
 }
 * body main .main__activities .activities .main__activites--pictures {
   display: flex;
@@ -145,7 +147,7 @@
   box-shadow: 10px 5px 5px #7f783b;
 }
 * body main .main__food p {
-  font-size: 19px;
+  font-size: 17px;
 }
 * body main .main__food .clafoutis {
   display: flex;
@@ -166,6 +168,9 @@
   margin: 10px 20px;
   gap: 20px;
 }
+* body main .main__food .apples #applePic {
+  width: 60%;
+}
 * body main .main__funFact {
   width: 100%;
   max-width: 1024px;
@@ -184,7 +189,7 @@
   margin: 0 30px;
 }
 * body main .main__funFact p {
-  font-size: 19px;
+  font-size: 17px;
 }
 * body footer {
   width: 100%;
